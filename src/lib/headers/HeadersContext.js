@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import createReactContext from 'create-react-context'
+import {createContext}from 'react'
 import { noop } from '../utility/generic'
 
 const defaultContextState = {
